@@ -19,6 +19,7 @@ const Header = () => {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
+            <Link to="/demo">Demo_form</Link>
             <div className='flex gap-20'>
                 <button onClick={() => {
                     setLoginshow(true)

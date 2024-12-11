@@ -8,7 +8,7 @@ const Demo_form = () => {
     const[password, setPassword] = useState('')
 
     function Submit() {
-        alert(username+ ''+email+''+password);
+        alert(username + ' '+ email +' '+ password);
     }
     function password1(){
         setPassword(!password);
